@@ -9,6 +9,7 @@ Compiler Features:
  * Optimizer: Add rule that replaces the BYTE opcode by 0 if the first argument is larger than 31.
  * Yul Optimizer: Take side-effect-freeness of user-defined functions into account.
  * Yul Optimizer: Remove redundant mload/sload operations.
+ * Yul Optimizer: Use the fact that branch conditions have certain value inside the branch.
 
 
 Bugfixes:
