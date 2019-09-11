@@ -35,7 +35,7 @@ namespace yul
  * Requirements:
  * - The Disambiguator must be run upfront.
  * - To avoid unnecessary rewrite, it is recommended to run this rewriter after StructuralSimplifier.
- * - Only works on EVM code.
+ * - Only works for dialects with a builtin boolean negation function.
  */
 class ForLoopConditionIntoBody: public ASTModifier
 {
